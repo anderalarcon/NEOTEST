@@ -1,0 +1,1863 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+* {
+  margin: 0;
+}
+
+.asd:focus {
+  outline: none;
+}
+/* 
+cambia el box shadow de bootstrap default */
+
+.caritas {
+  border: 3px solid black;
+}
+.botones {
+  border: 1px solid black;
+}
+
+textarea:focus,
+/* .caritas:focus, */
+.input_1_desk:focus,
+/* .botones_desk1:focus,
+.botones_desk2:focus, */
+.uneditable-input:focus {
+  border-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset,
+    0 0 8px rgba(15, 15, 15, 0.6);
+  outline: 0 none;
+}
+
+/* 
+cambia el box shadow de bootstrap default */
+
+/* 
+cambia el input a negrito */
+input[type="radio"] {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  outline: none;
+  box-shadow: 0 0 5px 0px gray inset;
+}
+
+input[type="radio"]:hover {
+  box-shadow: 0 0 5px 0px rgb(0, 0, 0) inset;
+}
+
+input[type="radio"]:before {
+  content: "";
+  display: block;
+  width: 60%;
+  height: 60%;
+  margin: 20% auto;
+  border-radius: 50%;
+}
+input[type="radio"]:checked:before {
+  background: rgb(0, 0, 0);
+}
+/* 
+cambia el input a negrito */
+
+#hola {
+  font-family: Tiempos Headline;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 38px;
+  color: #000033;
+  letter-spacing: 2px;
+}
+
+#ayudanos {
+  font-family: "Montserrat", sans-serif;
+
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  color: #000033;
+}
+
+#responde {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: #000033;
+}
+
+#iniciar {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: #000033;
+}
+
+#desktop_text {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  color: #000033;
+}
+
+#frases_desktop {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: #000033;
+}
+
+.fra {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #000033;
+}
+
+#qwe {
+  text-align: center;
+  align-items: center;
+}
+
+.fra2 {
+  height: 152px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: #000033;
+}
+
+#exp_desktop {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: #000033;
+}
+
+.expp {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #000033;
+}
+
+.exppp {
+  height: 152px;
+}
+
+.expp2 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: #000033;
+}
+
+#result_1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  color: #000033;
+}
+
+#result_2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  color: #000033;
+}
+
+.op {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: #000033;
+}
+
+.fin {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  color: #000033;
+}
+
+.recom {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  color: #000033;
+}
+
+#textarea {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  color: #000033;
+}
+#btn_enviar {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  color: #000033;
+}
+
+.copy {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: #000033;
+}
+#banner_mid {
+  background-image: url(./Captura.PNG);
+  /*  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+ */
+}
+#rayita {
+  background-color: #000033;
+  padding: 0.1rem;
+}
+
+#rayita_2 {
+  background-color: #c3c3f4;
+  margin: auto;
+  height: 1px;
+}
+#rayita_3 {
+  text-align: center;
+}
+
+#rayita_desktop {
+  text-align: center;
+}
+
+#rayita_mobilee_ {
+  text-align: center;
+  display: none;
+}
+#cuadro {
+  background-color: blue;
+}
+#textarea {
+  border-width: 1px;
+  border-color: black;
+}
+#btn_enviar {
+  background-color: #000033;
+  color: white;
+}
+
+#btn_footer {
+  background-color: #f4f4fb;
+}
+#btn_footer2 {
+  background-color: #f4f4fb;
+}
+#btn_footer3 {
+  background-color: #f4f4fb;
+}
+
+.flex-container {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flex-container button {
+  background-color: #f4f4fb;
+  width: 170px;
+  margin: 10px; /* hace el spaciado  */
+  text-align: center;
+  border-radius: 8px;
+
+  /* box-shadow: none !important; */
+}
+
+/* button:focus {
+  border-color: black;
+  border-width: 4px;
+} */
+
+.flex-container2 {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container2 div {
+  margin: 10px;
+  text-align: center;
+}
+
+.flex-container3 {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flex-container3 button {
+  margin: 5px;
+  background-color: #f4f4fb;
+  border-radius: 50%;
+  color: black;
+  padding: 10px;
+  width: 3rem;
+}
+
+#testingg {
+  justify-content: center;
+  text-align: center;
+  background-color: #f4f4fb;
+}
+
+#testingg button {
+  border-color: #c3c3f4;
+  box-shadow: none;
+}
+
+#tmr {
+  text-align: center;
+  display: none;
+}
+
+#mobile {
+  display: none;
+}
+
+#mobile_text {
+  display: none;
+}
+
+#test {
+  background-color: red;
+  border-radius: 50%;
+}
+
+#frases_mobile {
+  display: none;
+}
+
+#frases_mobilee {
+  display: none;
+}
+
+#frases_mob {
+  display: none;
+}
+
+#exp_mobile {
+  display: none;
+}
+
+.borrar {
+  display: none;
+}
+
+.table {
+  border-collapse: separate;
+  border-spacing: 0 20px;
+}
+.table {
+  border-top: none !important;
+}
+
+#iniciar_mobile {
+  display: none;
+}
+
+#textareamob {
+  display: none;
+}
+
+#bt {
+  display: none;
+}
+
+#fin_mob {
+  display: none;
+}
+/* 
+background-color: rgba(0, 0, 0, 0.5); /*Oscurece fondo */
+
+@media (max-width: 360px) {
+  .b {
+    display: flex;
+    background-color: #f4f4fb;
+    height: 78px;
+    box-shadow: none !important;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  #especi {
+    font-size: 14px;
+  }
+
+  #especi2 {
+    font-size: 14px;
+  }
+  .auxx {
+    display: flex;
+    background-color: #f4f4fb;
+    height: 78px;
+    box-shadow: none !important;
+  }
+
+  .fin {
+    display: none;
+  }
+  #fin_mob {
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    color: #000033;
+  }
+
+  #btn_enviar {
+    display: none;
+  }
+
+  #bt {
+    display: block;
+    background-color: #000033;
+    color: white;
+  }
+
+  #textareamob {
+    display: block;
+    border-width: 1px;
+    border-color: black;
+  }
+  #exp_mobile {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  #iniciar_mobile {
+    font-weight: bold;
+    display: block;
+    text-align: left;
+    font-size: 18px;
+  }
+
+  .letra {
+    font-family: Montserrat;
+
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .letra2 {
+    font-family: Montserrat;
+
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  #esp {
+    text-align: justify;
+  }
+
+  #textarea {
+    display: none;
+  }
+  .copy {
+    font-size: 13px;
+  }
+  #hola {
+    font-size: 21px;
+    line-height: 24px;
+  }
+
+  #ayudanos {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  #responde {
+    font-size: 12px;
+  }
+  #iniciar {
+    display: none;
+  }
+
+  #uno {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  #frases_mob {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  #textarea {
+    border-width: 1px;
+    border-color: black;
+  }
+
+  #tmr {
+    text-align: center;
+    display: block;
+  }
+  .flex-container3 {
+    display: none;
+  }
+  .borrando1 {
+    display: none;
+  }
+  .borrando2 {
+    display: none;
+  }
+
+  #desktop {
+    display: none;
+  }
+  #desktop_text {
+    display: none;
+  }
+
+  #mobile {
+    display: block;
+  }
+
+  #mobile_text {
+    display: block;
+  }
+
+  #frases_mobile {
+    display: block;
+  }
+
+  #frases_desktop {
+    display: none;
+  }
+
+  #rayita_desktop {
+    display: none;
+  }
+
+  #rayita_mobilee_ {
+    display: block;
+  }
+  #frases_mobilee {
+    display: block;
+  }
+
+  #tabla1 {
+    display: none;
+  }
+
+  #tabla2 {
+    display: none;
+  }
+
+  #frases_mob {
+    display: block;
+  }
+  #exp_desktop {
+    display: none;
+  }
+
+  #exp_mobile {
+    display: block;
+  }
+
+  .borrar {
+    display: block;
+  }
+
+  #result_1 {
+    display: none;
+  }
+  #result_2 {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  .b {
+    display: flex;
+    background-color: #f4f4fb;
+    height: 78px;
+    box-shadow: none !important;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  #especi {
+    font-size: 14px;
+  }
+
+  #especi2 {
+    font-size: 14px;
+  }
+  .auxx {
+    display: flex;
+    background-color: #f4f4fb;
+    height: 78px;
+    box-shadow: none !important;
+  }
+
+  .fin {
+    display: none;
+  }
+  #fin_mob {
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    color: #000033;
+  }
+
+  #btn_enviar {
+    display: none;
+  }
+
+  #bt {
+    display: block;
+    background-color: #000033;
+    color: white;
+  }
+
+  #textareamob {
+    display: block;
+    border-width: 1px;
+    border-color: black;
+  }
+  #exp_mobile {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  #iniciar_mobile {
+    font-weight: bold;
+    display: block;
+    text-align: left;
+    font-size: 18px;
+  }
+
+  .letra {
+    font-family: Montserrat;
+
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .letra2 {
+    font-family: Montserrat;
+
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  #esp {
+    text-align: justify;
+  }
+
+  #textarea {
+    display: none;
+  }
+  .copy {
+    font-size: 13px;
+  }
+  #hola {
+    font-size: 21px;
+    line-height: 24px;
+  }
+
+  #ayudanos {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  #responde {
+    font-size: 12px;
+  }
+  #iniciar {
+    display: none;
+  }
+
+  #uno {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  #frases_mob {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  #textarea {
+    border-width: 1px;
+    border-color: black;
+  }
+
+  #tmr {
+    text-align: center;
+    display: block;
+  }
+  .flex-container3 {
+    display: none;
+  }
+  .borrando1 {
+    display: none;
+  }
+  .borrando2 {
+    display: none;
+  }
+
+  #desktop {
+    display: none;
+  }
+  #desktop_text {
+    display: none;
+  }
+
+  #mobile {
+    display: block;
+  }
+
+  #mobile_text {
+    display: block;
+  }
+
+  #frases_mobile {
+    display: block;
+  }
+
+  #frases_desktop {
+    display: none;
+  }
+
+  #rayita_desktop {
+    display: none;
+  }
+
+  #rayita_mobilee_ {
+    display: block;
+  }
+  #frases_mobilee {
+    display: block;
+  }
+
+  #tabla1 {
+    display: none;
+  }
+
+  #tabla2 {
+    display: none;
+  }
+
+  #frases_mob {
+    display: block;
+  }
+  #exp_desktop {
+    display: none;
+  }
+
+  #exp_mobile {
+    display: block;
+  }
+
+  .borrar {
+    display: block;
+  }
+
+  #result_1 {
+    display: none;
+  }
+  #result_2 {
+    display: none;
+  }
+}
+
+@media (max-width: 414px) {
+  .b {
+    display: flex;
+    background-color: #f4f4fb;
+    height: 78px;
+    box-shadow: none !important;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  #especi {
+    font-size: 14px;
+  }
+
+  #especi2 {
+    font-size: 14px;
+  }
+  .auxx {
+    display: flex;
+    background-color: #f4f4fb;
+    height: 78px;
+    box-shadow: none !important;
+  }
+
+  .fin {
+    display: none;
+  }
+  #fin_mob {
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    color: #000033;
+  }
+
+  #btn_enviar {
+    display: none;
+  }
+
+  #bt {
+    display: block;
+    background-color: #000033;
+    color: white;
+  }
+
+  #textareamob {
+    display: block;
+    border-width: 1px;
+    border-color: black;
+  }
+  #exp_mobile {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  #iniciar_mobile {
+    font-weight: bold;
+    display: block;
+    text-align: left;
+    font-size: 18px;
+  }
+
+  .letra {
+    font-family: Montserrat;
+
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .letra2 {
+    font-family: Montserrat;
+
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  #esp {
+    text-align: justify;
+  }
+
+  #textarea {
+    display: none;
+  }
+  .copy {
+    font-size: 13px;
+  }
+  #hola {
+    font-size: 21px;
+    line-height: 24px;
+  }
+
+  #ayudanos {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  #responde {
+    font-size: 12px;
+  }
+  #iniciar {
+    display: none;
+  }
+
+  #uno {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  #frases_mob {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  #textarea {
+    border-width: 1px;
+    border-color: black;
+  }
+
+  #tmr {
+    text-align: center;
+    display: block;
+  }
+  .flex-container3 {
+    display: none;
+  }
+  .borrando1 {
+    display: none;
+  }
+  .borrando2 {
+    display: none;
+  }
+
+  #desktop {
+    display: none;
+  }
+  #desktop_text {
+    display: none;
+  }
+
+  #mobile {
+    display: block;
+  }
+
+  #mobile_text {
+    display: block;
+  }
+
+  #frases_mobile {
+    display: block;
+  }
+
+  #frases_desktop {
+    display: none;
+  }
+
+  #rayita_desktop {
+    display: none;
+  }
+
+  #rayita_mobilee_ {
+    display: block;
+  }
+  #frases_mobilee {
+    display: block;
+  }
+
+  #tabla1 {
+    display: none;
+  }
+
+  #tabla2 {
+    display: none;
+  }
+
+  #frases_mob {
+    display: block;
+  }
+  #exp_desktop {
+    display: none;
+  }
+
+  #exp_mobile {
+    display: block;
+  }
+
+  .borrar {
+    display: block;
+  }
+
+  #result_1 {
+    display: none;
+  }
+  #result_2 {
+    display: none;
+  }
+}
+
+@media (max-width: 540px) {
+  .b {
+    display: flex;
+    background-color: #f4f4fb;
+    height: 78px;
+    box-shadow: none !important;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  #especi {
+    font-size: 14px;
+  }
+
+  #especi2 {
+    font-size: 14px;
+  }
+  .auxx {
+    display: flex;
+    background-color: #f4f4fb;
+    height: 78px;
+    box-shadow: none !important;
+  }
+
+  .fin {
+    display: none;
+  }
+  #fin_mob {
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    color: #000033;
+  }
+
+  #btn_enviar {
+    display: none;
+  }
+
+  #bt {
+    display: block;
+    background-color: #000033;
+    color: white;
+  }
+
+  #textareamob {
+    display: block;
+    border-width: 1px;
+    border-color: black;
+  }
+  #exp_mobile {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  #iniciar_mobile {
+    font-weight: bold;
+    display: block;
+    text-align: left;
+    font-size: 18px;
+  }
+
+  .letra {
+    font-family: Montserrat;
+
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .letra2 {
+    font-family: Montserrat;
+
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  #esp {
+    text-align: justify;
+  }
+
+  #textarea {
+    display: none;
+  }
+  .copy {
+    font-size: 13px;
+  }
+  #hola {
+    font-size: 21px;
+    line-height: 24px;
+  }
+
+  #ayudanos {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  #responde {
+    font-size: 12px;
+  }
+  #iniciar {
+    display: none;
+  }
+
+  #uno {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  #frases_mob {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  #textarea {
+    border-width: 1px;
+    border-color: black;
+  }
+
+  #tmr {
+    text-align: center;
+    display: block;
+  }
+  .flex-container3 {
+    display: none;
+  }
+  .borrando1 {
+    display: none;
+  }
+  .borrando2 {
+    display: none;
+  }
+
+  #desktop {
+    display: none;
+  }
+  #desktop_text {
+    display: none;
+  }
+
+  #mobile {
+    display: block;
+  }
+
+  #mobile_text {
+    display: block;
+  }
+
+  #frases_mobile {
+    display: block;
+  }
+
+  #frases_desktop {
+    display: none;
+  }
+
+  #rayita_desktop {
+    display: none;
+  }
+
+  #rayita_mobilee_ {
+    display: block;
+  }
+  #frases_mobilee {
+    display: block;
+  }
+
+  #tabla1 {
+    display: none;
+  }
+
+  #tabla2 {
+    display: none;
+  }
+
+  #frases_mob {
+    display: block;
+  }
+  #exp_desktop {
+    display: none;
+  }
+
+  #exp_mobile {
+    display: block;
+  }
+
+  .borrar {
+    display: block;
+  }
+
+  #result_1 {
+    display: none;
+  }
+  #result_2 {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .b {
+    display: flex;
+    background-color: #f4f4fb;
+    height: 78px;
+    box-shadow: none !important;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  #especi {
+    font-size: 14px;
+  }
+
+  #especi2 {
+    font-size: 14px;
+  }
+  .auxx {
+    display: flex;
+    background-color: #f4f4fb;
+    height: 78px;
+    box-shadow: none !important;
+  }
+
+  .fin {
+    display: none;
+  }
+  #fin_mob {
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    color: #000033;
+  }
+
+  #btn_enviar {
+    display: none;
+  }
+
+  #bt {
+    display: block;
+    background-color: #000033;
+    color: white;
+  }
+
+  #textareamob {
+    display: block;
+    border-width: 1px;
+    border-color: black;
+  }
+  #exp_mobile {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  #iniciar_mobile {
+    font-weight: bold;
+    display: block;
+    text-align: left;
+    font-size: 18px;
+  }
+
+  .letra {
+    font-family: Montserrat;
+
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .letra2 {
+    font-family: Montserrat;
+
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  #esp {
+    text-align: justify;
+  }
+
+  #textarea {
+    display: none;
+  }
+  .copy {
+    font-size: 13px;
+  }
+  #hola {
+    font-size: 21px;
+    line-height: 24px;
+  }
+
+  #ayudanos {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  #responde {
+    font-size: 12px;
+  }
+  #iniciar {
+    display: none;
+  }
+
+  #uno {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  #frases_mob {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  #textarea {
+    border-width: 1px;
+    border-color: black;
+  }
+
+  #tmr {
+    text-align: center;
+    display: block;
+  }
+  .flex-container3 {
+    display: none;
+  }
+  .borrando1 {
+    display: none;
+  }
+  .borrando2 {
+    display: none;
+  }
+
+  #desktop {
+    display: none;
+  }
+  #desktop_text {
+    display: none;
+  }
+
+  #mobile {
+    display: block;
+  }
+
+  #mobile_text {
+    display: block;
+  }
+
+  #frases_mobile {
+    display: block;
+  }
+
+  #frases_desktop {
+    display: none;
+  }
+
+  #rayita_desktop {
+    display: none;
+  }
+
+  #rayita_mobilee_ {
+    display: block;
+  }
+  #frases_mobilee {
+    display: block;
+  }
+
+  #tabla1 {
+    display: none;
+  }
+
+  #tabla2 {
+    display: none;
+  }
+
+  #frases_mob {
+    display: block;
+  }
+  #exp_desktop {
+    display: none;
+  }
+
+  #exp_mobile {
+    display: block;
+  }
+
+  .borrar {
+    display: block;
+  }
+
+  #result_1 {
+    display: none;
+  }
+  #result_2 {
+    display: none;
+  }
+}
+
+@media (max-width: 731px) {
+  .b {
+    display: flex;
+    background-color: #f4f4fb;
+    height: 78px;
+    box-shadow: none !important;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  #especi {
+    font-size: 14px;
+  }
+
+  #especi2 {
+    font-size: 14px;
+  }
+  .auxx {
+    display: flex;
+    background-color: #f4f4fb;
+    height: 78px;
+    box-shadow: none !important;
+  }
+
+  .fin {
+    display: none;
+  }
+  #fin_mob {
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    color: #000033;
+  }
+
+  #btn_enviar {
+    display: none;
+  }
+
+  #bt {
+    display: block;
+    background-color: #000033;
+    color: white;
+  }
+
+  #textareamob {
+    display: block;
+    border-width: 1px;
+    border-color: black;
+  }
+  #exp_mobile {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  #iniciar_mobile {
+    font-weight: bold;
+    display: block;
+    text-align: left;
+    font-size: 18px;
+  }
+
+  .letra {
+    font-family: Montserrat;
+
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .letra2 {
+    font-family: Montserrat;
+
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  #esp {
+    text-align: justify;
+  }
+
+  #textarea {
+    display: none;
+  }
+  .copy {
+    font-size: 13px;
+  }
+  #hola {
+    font-size: 21px;
+    line-height: 24px;
+  }
+
+  #ayudanos {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  #responde {
+    font-size: 12px;
+  }
+  #iniciar {
+    display: none;
+  }
+
+  #uno {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  #frases_mob {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  #textarea {
+    border-width: 1px;
+    border-color: black;
+  }
+
+  #tmr {
+    text-align: center;
+    display: block;
+  }
+  .flex-container3 {
+    display: none;
+  }
+  .borrando1 {
+    display: none;
+  }
+  .borrando2 {
+    display: none;
+  }
+
+  #desktop {
+    display: none;
+  }
+  #desktop_text {
+    display: none;
+  }
+
+  #mobile {
+    display: block;
+  }
+
+  #mobile_text {
+    display: block;
+  }
+
+  #frases_mobile {
+    display: block;
+  }
+
+  #frases_desktop {
+    display: none;
+  }
+
+  #rayita_desktop {
+    display: none;
+  }
+
+  #rayita_mobilee_ {
+    display: block;
+  }
+  #frases_mobilee {
+    display: block;
+  }
+
+  #tabla1 {
+    display: none;
+  }
+
+  #tabla2 {
+    display: none;
+  }
+
+  #frases_mob {
+    display: block;
+  }
+  #exp_desktop {
+    display: none;
+  }
+
+  #exp_mobile {
+    display: block;
+  }
+
+  .borrar {
+    display: block;
+  }
+
+  #result_1 {
+    display: none;
+  }
+  #result_2 {
+    display: none;
+  }
+}
+
+@media (max-width: 736px) {
+  .b {
+    display: flex;
+    background-color: #f4f4fb;
+    height: 78px;
+    box-shadow: none !important;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  #especi {
+    font-size: 14px;
+  }
+
+  #especi2 {
+    font-size: 14px;
+  }
+  .auxx {
+    display: flex;
+    background-color: #f4f4fb;
+    height: 78px;
+    box-shadow: none !important;
+  }
+
+  .fin {
+    display: none;
+  }
+  #fin_mob {
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    color: #000033;
+  }
+
+  #btn_enviar {
+    display: none;
+  }
+
+  #bt {
+    display: block;
+    background-color: #000033;
+    color: white;
+  }
+
+  #textareamob {
+    display: block;
+    border-width: 1px;
+    border-color: black;
+  }
+  #exp_mobile {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  #iniciar_mobile {
+    font-weight: bold;
+    display: block;
+    text-align: left;
+    font-size: 18px;
+  }
+
+  .letra {
+    font-family: Montserrat;
+
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .letra2 {
+    font-family: Montserrat;
+
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  #esp {
+    text-align: justify;
+  }
+
+  #textarea {
+    display: none;
+  }
+  .copy {
+    font-size: 13px;
+  }
+  #hola {
+    font-size: 21px;
+    line-height: 24px;
+  }
+
+  #ayudanos {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  #responde {
+    font-size: 12px;
+  }
+  #iniciar {
+    display: none;
+  }
+
+  #uno {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  #frases_mob {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  #textarea {
+    border-width: 1px;
+    border-color: black;
+  }
+
+  #tmr {
+    text-align: center;
+    display: block;
+  }
+  .flex-container3 {
+    display: none;
+  }
+  .borrando1 {
+    display: none;
+  }
+  .borrando2 {
+    display: none;
+  }
+
+  #desktop {
+    display: none;
+  }
+  #desktop_text {
+    display: none;
+  }
+
+  #mobile {
+    display: block;
+  }
+
+  #mobile_text {
+    display: block;
+  }
+
+  #frases_mobile {
+    display: block;
+  }
+
+  #frases_desktop {
+    display: none;
+  }
+
+  #rayita_desktop {
+    display: none;
+  }
+
+  #rayita_mobilee_ {
+    display: block;
+  }
+  #frases_mobilee {
+    display: block;
+  }
+
+  #tabla1 {
+    display: none;
+  }
+
+  #tabla2 {
+    display: none;
+  }
+
+  #frases_mob {
+    display: block;
+  }
+  #exp_desktop {
+    display: none;
+  }
+
+  #exp_mobile {
+    display: block;
+  }
+
+  .borrar {
+    display: block;
+  }
+
+  #result_1 {
+    display: none;
+  }
+  #result_2 {
+    display: none;
+  }
+}
+
+
